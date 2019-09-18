@@ -1,0 +1,139 @@
+
+
+<<< Recorded commands on Tue Sep 17 2019 20:31:11 GMT+0530 (India Standard Time)
+I.fillField({id:"searchbar"}, "Generic");
+
+<<< Recorded commands on Tue Sep 17 2019 23:28:31 GMT+0530 (India Standard Time)
+I.see("Search");
+I.fillField("Search","Hello");
+
+<<< Recorded commands on Tue Sep 17 2019 23:43:30 GMT+0530 (India Standard Time)
+I.fillField({name:"rfqcontract"},"hello");
+I.fillField({id:"select2-rfqcontract-05-container"},"Hello");
+I.click({id:"select2-rfqcontract-05-container"});
+
+<<< Recorded commands on Tue Sep 17 2019 23:52:37 GMT+0530 (India Standard Time)
+I.click({id:"select2-rfqcontract-22-container"});
+I.seeElement({id:"select2-rfqcontract-22-container"});
+I.seeElement(".select2-search__field");
+I.fillField(".select2-search__field","Hello");
+I.fillField(".select2-search__field","Hello");
+I.fillField(".select2-search__field","A");
+
+<<< Recorded commands on Tue Sep 17 2019 23:56:35 GMT+0530 (India Standard Time)
+I.seeElement("#select2-rfqcontract-x8-container");
+I.seeElement({id:"select2-rfqcontract-x8-container"});
+
+<<< Recorded commands on Wed Sep 18 2019 00:15:34 GMT+0530 (India Standard Time)
+I.seeElement(".select2-selection__rendered");
+I.seeElement(".select2-selection__rendered");
+I.seeElement(".select2-selection__rendered");
+I.see("Armed");
+I.click("Armed");
+I.click("Armed");
+I.click("Armed Engagement Contract");
+
+<<< Recorded commands on Wed Sep 18 2019 00:50:53 GMT+0530 (India Standard Time)
+I.seeElement(".select2-search__field");
+I.fillField(".select2-search__field","Hello");
+I.fillField(".select2-search__field","Armed");
+I.fillField(".dropdown-wrapper","Armed");
+
+<<< Recorded commands on Wed Sep 18 2019 01:17:30 GMT+0530 (India Standard Time)
+I.fillField("Location","Kanjirapally");
+I.see("July");
+I.fillField(".numInput", "2012");
+I.fillField(".numInput", "2011");
+I.fillField(".numInput", "2013");
+I.fillField(".numInput", "2012");
+I.fillField(".numInput", "212");
+I.fillField(".cur-year", "2012");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "2014");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "2014");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "");
+I.fillField(".cur-year", "1");
+I.fillField(".cur-year", "");
+I.clearField(".cur-year");
+
+<<< Recorded commands on Wed Sep 18 2019 01:39:04 GMT+0530 (India Standard Time)
+I.fillField("Location","arhtunkla");
+I.clearField(".numInput");
+I.clearField(".numInput","");
+I.clearField(".numInput","");
+I.clearField(".numInput","2");
+I.clearField(".numInput","");
+I.clearField(".numInput","");
+I.fillField(".numInput","2");
+I.clearField(".numInput","");
+I.seeElement(".numInput");
+I.pressKey("Backspace");
+I.fillField(".numInput","2018");
+I.seeElement(".numInput");
+I.clearField(".numInput");
+I.click("5");
+I.fillField(".numInput","");
+I.fillField(".numInput","1");
+I.fillField(".numInput","12");
+I.fillField(".numInput","12");
+I.fillField(".numInput","12");
+I.fillField(".cur-year","12");
+I.pressKey("Backspace");
+I.pressKey("Backspace");
+I.fillField(".cur-year","12");
+I.fillField(".cur-year","12");
+I.pressKey("Backspace");
+I.pressKey("Backspace");
+I.pressKey("Backspace");
+I.pressKey("Backspace");
+I.pressKey("Backspace");
+I.fillField(".cur-year","");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+I.fillField(".cur-year","1");
+
+<<< Recorded commands on Wed Sep 18 2019 01:47:44 GMT+0530 (India Standard Time)
+I.seeElement(".form-control");
+I.click(".element-input");
+I.click(".element-input");
+I.click(".element-input");
+I.click(".element-input");
+I.click(".element-input");
+I.click(".element-input");
+I.click(".element-input");
+I.click({name: "duration"});
+
+<<< Recorded commands on Wed Sep 18 2019 09:37:30 GMT+0530 (India Standard Time)
+I.seeElement({name: "job_description"});
+I.fillField({name: "job_description"},"Hello");
+
+<<< Recorded commands on Wed Sep 18 2019 10:11:28 GMT+0530 (India Standard Time)
+I.click({name:"duration"});
+I.fillField(".numInputWrapper","");
+I.fillField(".numInputWrapper","sdf");
+I.fillField(".numInputWrapper","sfsdf");
+I.seeElement(".numInputWrapper");
+I.seeElement(".numInputWrapper");
+I.seeElement(".cur-month");
+I.seeElement("path");
+I.seeElement(".flatpickr-prev-month");
+
+<<< Recorded commands on Wed Sep 18 2019 10:54:29 GMT+0530 (India Standard Time)
+I.clearField(".cur-year");
+I.fillField(".cur-year","3");
+I.fillField(".cur-year","3");
